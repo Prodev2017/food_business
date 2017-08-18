@@ -7,9 +7,7 @@ import {
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 import Coming_Page from './coming_soon';
-
-
- 
+import Order from './order';
 
 class Coming extends Component {
 
@@ -26,7 +24,6 @@ class Header extends Component{
     location.reload();   
    
   }
-  
   render(){   
     return (
       <MuiThemeProvider>
@@ -34,6 +31,7 @@ class Header extends Component{
         <div>                                                       
                   <Route exact path="/" component={Coming}/>
                   <Route path="/coming_soon" component={Coming}/>
+            <Route path="/order" component={Order}/>
           </div>
       </Router>
       </MuiThemeProvider>

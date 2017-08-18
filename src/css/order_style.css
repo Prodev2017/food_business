@@ -1,0 +1,139 @@
+.order-main-block p {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.order-left-block {
+    border: 2px solid #8dd7d6;
+    margin: 15px 0;
+    padding: 10px;
+}
+
+.order-left-block .header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.order-left-block .text {
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.order-center-block {
+    margin: 15px 0;
+}
+
+.order-center-block thead {
+    border: 2px solid #8dd7d6;
+    background-color: #8dd7d6;
+    color: #fff;
+}
+
+.order-center-block thead th {
+    padding: 15px 5px;
+}
+
+.order-center-block tbody {
+    border: 2px solid #8dd7d6;
+}
+
+.order-center-block tbody th {
+    padding: 15px 5px;
+    text-align: center;
+}
+
+.order-center-block tbody th.titleTh {
+    text-align: left;
+}
+
+.order-center-block .order_details {
+    margin-bottom: 15px;
+}
+
+.order-center-block .order_details .button-collapse {
+    transform: rotate(90deg);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.order-center-block .order_details .collapsed {
+    transform: rotate(270deg);
+}
+
+.order-center-block tbody th .header {
+    font-size: 16px;
+}
+
+.order-center-block tbody th .description {
+    font-size: 10px;
+}
+
+.order-center-block tbody th .counter {
+    background-color: #8dd7d6;
+    margin: 5px;
+    height: 15px;
+    line-height: 0;
+    font-size: 13px;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+}
+
+.order-right-block {
+    border: 2px solid #8dd7d6;
+    margin: 15px 0;
+    padding: 10px;
+}
+
+.order-right-block .header {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #8dd7d6;
+    margin: -10px -10px 0 -10px;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+.order-right-block button.add-card {
+    background-color: #8dd7a0;
+    border: 0;
+    color: #fff;
+    padding: 8px;
+    width: -webkit-fill-available;
+    margin: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.order-right-block button.pay-btn{
+    background-color: #d73d6b;
+    border: 0;
+    color: #fff;
+    padding: 8px;
+    width: -webkit-fill-available;
+    margin: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.order-right-block .total-header{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.order-right-block .total-bill{
+    font-size: 18px;
+    font-weight: bold;
+    float: right;
+}
+
+.radio {
+    background-color: #e7e7e7;
+    padding: 8px;
+    margin: 15px;
+}
+
+.radio label {
+    line-height: 20px;
+}
